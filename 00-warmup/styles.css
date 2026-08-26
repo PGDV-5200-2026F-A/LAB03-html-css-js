@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e5e5e5;
+  color: #111;
+  padding: 24px 40px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.brand {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.menu-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 60px 0 80px 0;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+}
+
+.side-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 320px;
+  letter-spacing: -0.5px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.project-item {
+  width: calc(25% - 3 * 20px / 4);
+  border: 1px #111 solid;
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.project-image-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
