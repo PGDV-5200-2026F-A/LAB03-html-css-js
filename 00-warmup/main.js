@@ -43,6 +43,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     projectItem.appendChild(projectTitle);
 
     // TODO: create the project client element
+    const projectClient = document.createElement("h4");
+    projectClient.classList.add("project-client");
+    projectClient.innerHTML = projectData.client;
+    projectItem.appendChild(projectClient);
 
     // create the project image elements
     // first, the wrapper, to help with sizing
